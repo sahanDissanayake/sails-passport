@@ -18,17 +18,17 @@ module.exports.passport = {
 
   local: {
     strategy: require('passport-local').Strategy
-  }
+  },
 
-  // twitter: {
-  //   name: 'Twitter',
-  //   protocol: 'oauth',
-  //   strategy: require('passport-twitter').Strategy,
-  //   options: {
-  //     consumerKey: 'your-consumer-key',
-  //     consumerSecret: 'your-consumer-secret'
-  //   }
-  // },
+  twitter: {
+    name: 'Twitter',
+    protocol: 'oauth',
+    strategy: require('passport-twitter').Strategy,
+    options: {
+      consumerKey: 'your-consumer-key',
+      consumerSecret: 'your-consumer-secret'
+    }
+  },
 
   // github: {
   //   name: 'GitHub',
@@ -40,15 +40,15 @@ module.exports.passport = {
   //   }
   // },
 
-  // facebook: {
-  //   name: 'Facebook',
-  //   protocol: 'oauth2',
-  //   strategy: require('passport-facebook').Strategy,
-  //   options: {
-  //     clientID: 'your-client-id',
-  //     clientSecret: 'your-client-secret'
-  //   }
-  // },
+  facebook: {
+    name: 'Facebook',
+    protocol: 'oauth2',
+    strategy: require('passport-facebook').Strategy,
+    options: {
+      clientID: 'your-client-id',
+      clientSecret: 'your-client-secret'
+    }
+  }
 
   // google: {
   //   name: 'Google',

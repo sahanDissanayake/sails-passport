@@ -27,7 +27,8 @@
     "passport-local": "~1.0.0",
     "bcrypt": "~0.8.0",
     "passport": "~0.2.1",
-    "validator": "~3.18.1"
+    "validator": "~3.18.1",
+    "sails-mysql": "~0.10.6"
   },
   "scripts": {
     "start": "node app.js",
