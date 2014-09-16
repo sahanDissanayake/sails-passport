@@ -1,5 +1,5 @@
 {
-  "name": "sahan",
+  "name": "app",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -22,9 +22,12 @@
     "grunt-contrib-cssmin": "~0.9.0",
     "grunt-contrib-less": "0.11.1",
     "grunt-contrib-coffee": "~0.10.1",
-    "passport": "~0.1.16",
-    "passport-local": "~0.1.6",
-    "bcrypt": "~0.7.6"
+    "sails-generate-auth": "~0.1.6",
+    "passport-twitter": "~1.0.2",
+    "passport-local": "~1.0.0",
+    "bcrypt": "~0.8.0",
+    "passport": "~0.2.1",
+    "validator": "~3.18.1"
   },
   "scripts": {
     "start": "node app.js",
@@ -33,7 +36,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sahan/sahan.git"
+    "url": "git://github.com/sahan/app.git"
   },
   "author": "sahan",
   "license": ""

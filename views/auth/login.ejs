@@ -1,5 +1,5 @@
-<form action="/login" method="post">
-<div><input name="username" type="text"></div>
-<div><input name="password" type="password"></div>
-<div><input type="submit"></div>
-</form>
+<% _.each(providers, function(slug) { %>
+    <a href="">hello</a>
+    <a href="/auth/<%= slug %>"><%= slug %>
+</a>
+<% }); %>

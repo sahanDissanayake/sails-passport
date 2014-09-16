@@ -1,6 +1,3 @@
-sails-passport
-==============
+# app
 
-A foundation for sails-passport combination
-
-This is still at development stage. Any contributions welcome.
+a [Sails](http://sailsjs.org) application
